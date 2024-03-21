@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+</head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    section {
+        margin-top: 100px !important;
+
+    }
+
+    /* WebKit (Chrome, Safari, Opera) */
+
+    /* Track */
+    ::-webkit-scrollbar {
+        width: 10px;
+        /* Set the width of the scrollbar */
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to right, #ff9900, #ff6600);
+        /* Set the gradient background for the scrollbar handle */
+        border-radius: 5px;
+        /* Set the border radius of the scrollbar handle */
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to right, #ff6600, #ff3300);
+        /* Set the gradient background for the scrollbar handle on hover */
+    }
+</style>
+
+<body class="bg-gray-900 text-white">
+    <header>
+        <nav>
+            <div class="navbar bg-gray-800">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <button tabindex="0" role="button"
+                            class="btn border-none btn border-none-ghost lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </button>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-800 rounded-box w-52">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Components/about/about.html">About</a></li>
+                            <li><a href="/Components/Contact/Contact.html">Contact</a></li>
+                            <li>
+                                <a>Book's</a>
+                                <ul class="p-2">
+                                    <li><a href="/Components/Eight/eight.html">Eight</a></li>
+                                    <li><a href="/Components/Nine/nine.html">Nine</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Ten</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Eleven</a></li>
+                                </ul>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                    <a href="/index.html">Rafiq's Language Lab</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/Components/about/about.html">About</a></li>
+                        <li><a href="/Components/Contact/Contact.html">Contact</a></li>
+                        <li>
+                            <details>
+                                <summary>Book's</summary>
+                                <ul class="p-2 w-[300px]">
+                                    <li><a href="/Components/Eight/eight.html">Eight</a></li>
+                                    <li><a href="/Components/Nine/nine.html">Nine</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Ten</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Eleven</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn border-none bg-green-700 hover:bg-green-600 text-white font-bold">Button</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+
+                <div class="text-center lg:text-left w-full md:md:md:w-1/2">
+                    <h1 class="text-5xl font-bold mb-5">Contact Me</h1>
+                    <h4><i class="fa-solid fa-phone"></i> +8801710986527 ||  
+                        +8801640241587</h4>
+                    <p class="py-6">Have a question or need assistance? Feel free to reach out to Me using the form
+                        below.</p>
+                </div>
+
+                <div class="card shrink-0 w-full md:md:w-1/2 shadow-2xl bg-base-100">
+                    <form action="https://formspree.io/f/mnqebzjq" method="POST" class="card-body">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Your email:</span>
+                            </label>
+                            <input type="email" name="email" class="input input-bordered" required>
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Your Phone Number:</span>
+                            </label>
+                            <input type="number" name="number" class="input input-bordered" required>
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Your message:</span>
+                            </label>
+                            <textarea name="message" class="textarea textarea-bordered" required></textarea>
+                        </div>
+                        <div class="form-control mt-6">
+                            <button
+                                class="btn border-none bg-green-700 hover:bg-green-600 text-white font-bold text-xl h-[60px]">Send</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer class="footer p-10 bg-neutral text-neutral-content mt-[100px]">
+        <nav>
+            <h6 class="footer-title">Explore</h6>
+            <a href="#" class="link link-hover">Home</a>
+            <a href="#" class="link link-hover">About</a>
+            <a href="#" class="link link-hover">Services</a>
+            <a href="#" class="link link-hover">Portfolio</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Connect</h6>
+            <a href="#" class="link link-hover">Contact</a>
+            <a href="#" class="link link-hover">Blog</a>
+            <a href="#" class="link link-hover">Testimonials</a>
+            <a href="#" class="link link-hover">FAQ</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a href="#" class="link link-hover">Terms of Service</a>
+            <a href="#" class="link link-hover">Privacy Policy</a>
+            <a href="#" class="link link-hover">Cookie Policy</a>
+        </nav>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/9a67b7fa89.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

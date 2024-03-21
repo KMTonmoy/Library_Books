@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+</head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    section {
+        margin-top: 100px !important;
+
+    }
+
+    /* WebKit (Chrome, Safari, Opera) */
+
+    /* Track */
+    ::-webkit-scrollbar {
+        width: 10px;
+        /* Set the width of the scrollbar */
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to right, #ff9900, #ff6600);
+        /* Set the gradient background for the scrollbar handle */
+        border-radius: 5px;
+        /* Set the border radius of the scrollbar handle */
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to right, #ff6600, #ff3300);
+        /* Set the gradient background for the scrollbar handle on hover */
+    }
+</style>
+
+<body class="bg-gray-900 text-white">
+    <header>
+        <nav>
+            <div class="navbar bg-gray-800">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <button tabindex="0" role="button"
+                            class="btn border-none btn border-none-ghost lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </button>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-800 rounded-box w-52">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Components/about/about.html">About</a></li>
+                            <li><a href="/Components/Contact/Contact.html">Contact</a></li>
+                            <li>
+                                <a>Book's</a>
+                                <ul class="p-2">
+                                    <li><a href="/Components/Eight/eight.html">Eight</a></li>
+                                    <li><a href="/Components/Nine/nine.html">Nine</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Ten</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Eleven</a></li>
+                                </ul>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                    <a href="/index.html">Rafiq's Language Lab</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/Components/about/about.html">About</a></li>
+                        <li><a href="/Components/Contact/Contact.html">Contact</a></li>
+                        <li>
+                            <details>
+                                <summary>Book's</summary>
+                                <ul class="p-2 w-[300px]">
+                                    <li><a href="/Components/Eight/eight.html">Eight</a></li>
+                                    <li><a href="/Components/Nine/nine.html">Nine</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Ten</a></li>
+                                    <li><a href="/Components/Ten/ten.html">Eleven</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn border-none bg-green-700 hover:bg-green-600 text-white font-bold">Button</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="hero min-h-screen bg-cover bg-center"
+                style="background-image: url(https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/GettyImages-900301626_437925_t2i3bm.jpg);">
+                <div class="hero-overlay bg-opacity-75"></div>
+                <div class="hero-content text-center">
+                    <div>
+                        <h1 class="mb-8 text-5xl font-bold leading-tight">Welcome to Rafiq's Language Lab</h1>
+                        <p class="mb-8 text-lg leading-relaxed">Explore linguistic discovery and mastery at Rafiq's
+                            Language Lab. Whether you're a student, educator, or language enthusiast, find resources,
+                            interactive lessons, and expert guidance to ignite your passion and propel you towards
+                            fluency. Join our vibrant community and unlock endless possibilities together.</p>
+
+                        <button
+                            class="btn border-none bg-green-700 hover:bg-green-600 text-white font-bold text-xl h-[60px] border-none">Contact
+                            Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="mt-16" id="">
+            <h1 class="font-semibold text-4xl text-center mb-24">About Me</h1>
+
+            <div class="hero">
+                <div class="hero-content gap-16 flex-col lg:flex-row">
+                    <img src="https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/276135413_5106827936072419_768008308068333860_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE4lEpMbsxCyaEpjBjcJKe3harX-riA5keFqtf6uIDmRwBi_HX7Oz1obffMz4tdfU0lWrI_5q0nTmE752QAW6fY&_nc_ohc=usWuVOBm3XcAX-s7LDe&_nc_ht=scontent.fdac24-2.fna&oh=00_AfBWSvHQb1R0W20U39pqw1s3JD3pqEnZjwVpBlbcfby4xg&oe=65FE13C2"
+                        class="md:md:md:w-1/2 w-full rounded-lg shadow-2xl" />
+                    <div class="md:md:md:w-1/2 w-full">
+                        <h1 class="text-4xl font-bold">Hi, I am Md Rafiqul Islam</h1>
+                        <p class="py-6 text-lg leading-relaxed">I am a dedicated English professor at Dashuria
+                            Degree College. With a passion for teaching, I strive to inspire students and foster a love
+                            for the English language. Committed to academic excellence, I aim to create an engaging
+                            learning environment where students can thrive and reach their full potential.</p>
+                        <button
+                            class="btn border-none bg-green-700 hover:bg-green-600 text-white font-bold text-xl h-[60px] ">Contact
+                            Me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-5">
+
+            <div class="flex gap-3 flex-col md:flex-row justify-around items-center">
+                <img class="rounded-lg shadow-lg md:w-1/2"
+                    src="https://cdn3d.iconscout.com/3d/premium/thumb/man-holding-faq-banner-4437411-3690812.png?f=webp"
+                    alt="">
+                <div class="join join-vertical md:w-1/2">
+                    <div class="collapse collapse-arrow join-item border border-base-300 mb-8">
+                        <input type="radio" name="my-accordion" id="accordion-1" checked />
+                        <div class="collapse-title text-xl font-medium">
+                            Why Choose Us?
+                        </div>
+                        <div class="collapse-content">
+                            <p>We provide exceptional customer service, high-quality products, and competitive prices.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border border-base-300 mb-8">
+                        <input type="radio" name="my-accordion" id="accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Our Mission
+                        </div>
+                        <div class="collapse-content">
+                            <p>Our mission is to exceed customer expectations by delivering innovative solutions and
+                                superior service.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border border-base-300 mb-8">
+                        <input type="radio" name="my-accordion" id="accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            Our Values
+                        </div>
+                        <div class="collapse-content">
+                            <p>We are committed to integrity, teamwork, and continuous improvement.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border border-base-300 mb-8">
+                        <input type="radio" name="my-accordion" id="accordion-4" />
+                        <div class="collapse-title text-xl font-medium">
+                            Our Team
+                        </div>
+                        <div class="collapse-content">
+                            <p>We have a dedicated team of professionals who are passionate about delivering excellence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow join-item border border-base-300 mb-8">
+                        <input type="radio" name="my-accordion" id="accordion-5" />
+                        <div class="collapse-title text-xl font-medium">
+                            Contact Us
+                        </div>
+                        <div class="collapse-content">
+                            <p>Feel free to reach out to us if you have any questions or need assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section>
+            <div class="hero" id="#contact">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+
+                    <div class="text-center lg:text-left w-full md:md:md:w-1/2">
+                        <h1 class="text-5xl font-bold mb-5">Contact Me</h1>
+                        <h4><i class="fa-solid fa-phone"></i> +8801710986527 ||
+                            +8801640241587</h4>
+                        <p class="py-6">Have a question or need assistance? Feel free to reach out to Me using the form
+                            below.</p>
+                    </div>
+
+                    <div class="card shrink-0 w-full md:md:w-1/2 shadow-2xl bg-base-100">
+                        <form action="https://formspree.io/f/mnqebzjq" method="POST" class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Your email:</span>
+                                </label>
+                                <input type="email" name="email" class="input input-bordered" required>
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Your Phone Number:</span>
+                                </label>
+                                <input type="number" name="number" class="input input-bordered" required>
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Your message:</span>
+                                </label>
+                                <textarea name="message" class="textarea textarea-bordered" required></textarea>
+                            </div>
+                            <div class="form-control mt-6">
+                                <button
+                                    class="btn border-none bg-green-700 hover:bg-green-600 text-white font-bold text-xl h-[60px]">Send</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer p-10 bg-neutral text-neutral-content mt-[100px]">
+        <nav>
+            <h6 class="footer-title">Explore</h6>
+            <a href="#" class="link link-hover">Home</a>
+            <a href="#" class="link link-hover">About</a>
+            <a href="#" class="link link-hover">Services</a>
+            <a href="#" class="link link-hover">Portfolio</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Connect</h6>
+            <a href="#" class="link link-hover">Contact</a>
+            <a href="#" class="link link-hover">Blog</a>
+            <a href="#" class="link link-hover">Testimonials</a>
+            <a href="#" class="link link-hover">FAQ</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a href="#" class="link link-hover">Terms of Service</a>
+            <a href="#" class="link link-hover">Privacy Policy</a>
+            <a href="#" class="link link-hover">Cookie Policy</a>
+        </nav>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/9a67b7fa89.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
